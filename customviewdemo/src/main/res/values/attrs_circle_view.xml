@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="CircleView">
+        <attr name="exampleString" format="string" />
+        <attr name="exampleDimension" format="dimension" />
+        <attr name="exampleColor" format="color" />
+        <attr name="exampleDrawable" format="color|reference" />
+
+        <attr name="inColor" format="color"/>
+        <attr name="outColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="circleSpeed" format="dimension"/>
+    </declare-styleable>
+</resources>
