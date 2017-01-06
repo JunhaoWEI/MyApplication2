@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviewdemo/customviewdemo.iml" filepath="$PROJECT_DIR$/customviewdemo/customviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" filepath="$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewloadmore/recyclerviewloadmore.iml" filepath="$PROJECT_DIR$/recyclerviewloadmore/recyclerviewloadmore.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
     </modules>
   </component>
