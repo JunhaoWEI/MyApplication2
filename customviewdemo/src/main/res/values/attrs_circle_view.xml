@@ -5,9 +5,9 @@
         <attr name="exampleColor" format="color" />
         <attr name="exampleDrawable" format="color|reference" />
 
-        <attr name="inColor" format="color"/>
-        <attr name="outColor" format="color"/>
+        <attr name="inColor" format="integer"/>
+        <attr name="outColor" format="integer"/>
         <attr name="circleWidth" format="dimension"/>
-        <attr name="circleSpeed" format="dimension"/>
+        <attr name="circleSpeed" format="integer"/>
     </declare-styleable>
 </resources>
