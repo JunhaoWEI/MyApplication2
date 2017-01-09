@@ -19,7 +19,8 @@
             android:name=".Circle.CircleActivity"
             android:label="@string/title_activity_circle"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".GalleryActivity"></activity>
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".View1.View1Activity"></activity>
     </application>
 
 </manifest>

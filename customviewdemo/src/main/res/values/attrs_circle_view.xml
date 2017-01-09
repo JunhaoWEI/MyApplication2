@@ -5,9 +5,24 @@
         <attr name="exampleColor" format="color" />
         <attr name="exampleDrawable" format="color|reference" />
 
-        <attr name="inColor" format="integer"/>
-        <attr name="outColor" format="integer"/>
+        <attr name="inColor" format="integer" />
+        <attr name="outColor" format="integer" />
+        <attr name="circleWidth" format="dimension" />
+        <attr name="circleSpeed" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="View1">
+        <attr name="titleText" format="string" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleSize" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="View2">
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color"/>
         <attr name="circleWidth" format="dimension"/>
-        <attr name="circleSpeed" format="integer"/>
+        <attr name="dotcount" format="integer"/>
+        <attr name="splitSize" format="integer"/>
+        <attr name="bg" format="reference"/>
     </declare-styleable>
 </resources>
