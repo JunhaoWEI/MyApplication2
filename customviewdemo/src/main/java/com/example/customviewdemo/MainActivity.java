@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.customviewdemo.Circle.CircleActivity;
 import com.example.customviewdemo.View1.View1Activity;
+import com.example.customviewdemo.View2.View2Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.button1).setOnClickListener(this);
         findViewById(R.id.button2).setOnClickListener(this);
+        findViewById(R.id.button3).setOnClickListener(this);
     }
 
     @Override
@@ -27,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button2:
                 startActivity(new Intent(MainActivity.this, View1Activity.class));
+                break;
+            case R.id.button3:
+                startActivity(new Intent(MainActivity.this, View2Activity.class));
                 break;
         }
     }

@@ -20,7 +20,8 @@
             android:label="@string/title_activity_circle"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".GalleryActivity" />
-        <activity android:name=".View1.View1Activity"></activity>
+        <activity android:name=".View1.View1Activity" />
+        <activity android:name=".View2.View2Activity"></activity>
     </application>
 
 </manifest>
